@@ -4,7 +4,7 @@
 title = Сумма денег
 
 # (str) Package name
-package.name = serpak's_app
+package.name = serpak_app
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.wiseplat
