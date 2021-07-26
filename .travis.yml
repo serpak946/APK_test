@@ -32,6 +32,8 @@ install:
   - dpl releases --token $GIT_TOKEN --file "bin/SumMoney-2.3-armeabi-v7a-debug.apk" --tag_name "v.2.3"
   - echo "TODO COMPILE 64bit"
   - ls -l /home/travis/
+  - ls -l /home/travis/build/
+  - ls -l /home/travis/build/WISEPLAT/
   - ls -l /home/travis/build/WISEPLAT/SumMoney/
   - ls -la
   - rm -r -f .buildozer
