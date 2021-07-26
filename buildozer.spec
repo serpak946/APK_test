@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = Сумма денег
+title = SumMoney
 
 # (str) Package name
-package.name = serpak_app
+package.name = SumMoney
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.wiseplat
