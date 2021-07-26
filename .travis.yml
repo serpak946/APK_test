@@ -29,16 +29,16 @@ install:
   - ls -la
   - ls bin/ -l
   - gem install dpl --pre
-  - dpl releases --token $GIT_TOKEN --file "bin/mobileapp001-0.3-armeabi-v7a-debug.apk" --tag_name "v.2.3"
+  - dpl releases --token $GIT_TOKEN --file "bin/SumMoney-2.3-armeabi-v7a-debug.apk" --tag_name "v.2.3"
   - echo "TODO COMPILE 64bit"
   - ls -l /home/travis/
-  - ls -l /home/travis/build/WISEPLAT/mobile_app_001/
+  - ls -l /home/travis/build/WISEPLAT/SumMoney/
   - ls -la
   - rm -r -f .buildozer
   - ls -la
-  - rm -r -f /home/travis/build/WISEPLAT/mobile_app_001/.buildozer
+  - rm -r -f /home/travis/build/WISEPLAT/SumMoney/.buildozer
   - ls -l /home/travis/
-  - ls -l /home/travis/build/WISEPLAT/mobile_app_001/
+  - ls -l /home/travis/build/WISEPLAT/SumMoney/
   - ls -l
   - yes | cp -f buildozer-64bit.spec buildozer.spec
   - yes | buildozer android debug
@@ -46,5 +46,5 @@ install:
   - ls bin/ -l
   - echo "TODO"
   - gem install dpl --pre
-  - dpl releases --token $GIT_TOKEN --file "bin/mobileapp001-0.3-arm64-v8a-debug.apk" --tag_name "v.2.3"
+  - dpl releases --token $GIT_TOKEN --file "bin/SumMoney-2.3-arm64-v8a-debug.apk" --tag_name "v.2.3"
   - echo "OK"
