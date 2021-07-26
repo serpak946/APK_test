@@ -25,7 +25,7 @@ install:
   - export PATH=$PATH:~/.local/bin/
   - ls -l
   - echo "TODO COMPILE 32bit"
-  - yes | buildozer android debug deploy run
+  - yes | buildozer android debug
   - ls -la
   - ls bin/ -l
   - gem install dpl --pre
@@ -41,7 +41,7 @@ install:
   - ls -l /home/travis/build/WISEPLAT/mobile_app_001/
   - ls -l
   - yes | cp -f buildozer-64bit.spec buildozer.spec
-  - yes | buildozer android debug deploy run
+  - yes | buildozer android debug
   - ls -la
   - ls bin/ -l
   - echo "TODO"
