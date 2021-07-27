@@ -171,6 +171,6 @@ class MyApp(App):
             self.MDLL.text = 'MDL = 0.0'
             self.EURL.text = 'EUR = 0.0'
 
-k=0
-
-MyApp().run()
+if __name__ == '__main__':
+    k=0
+    MyApp().run()
